@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trishon_Portfolio_Website/Home_Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="js/app.js" />
+    <link rel="stylesheet" href="/css/">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/4acd815c01.js" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #particles-js {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+      }
+      canvas {
+        z-index: -1;
+      }
+    </style>
+    <!-- Title logo linking -->
+    <link rel="shortcut icon" href="images/user-modified.png" type="image/x-icon"> 
+  </head>
+
+  <body>
+    <!-- messenger bot -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-d0424914-f83a-409a-b857-419b6febc3c3"></div>
+    <!-- whatsapp bot -->
+    <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-e390a3ed-5a6f-42dc-b794-15d82147004b"></div> -->
+    <!-- --------------------------------------------Header part Start-------------------------------------- -->
+    <div id="particles">
+      <div id="header">
+        <div class="container">
+          <div id="particles-js">
+            <canvas
+              class="particles-js-canvas-el"
+              style="width: 100%; height: 100%"
+              width="1263"
+              height="632">
+            </canvas>
+          </div>
+          <!------------------ Navbar start -------------------->
+          <nav>
+            <img src="images/logo.png" class="toplogo" alt="" />
+            <ul id="sidemenu">
+              <li><a href="#header" class="navhome">Home</a></li>
+              <li><a href="#about" class="navabout">About</a></li>
+              <li><a href="#services" class="navservices">Services</a></li>
+              <li><a href="./portfolio page/index.html" class="navportfolio" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+              <li><a href="#mh-skills" class="navskills">Skills</a></li>
+
+              <li><a href="#contact" class="navcontact">Contact</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+
+          <!-------------------- Navber End --------------------->
+
+          <div id="headertext">
+            <h1>
+              Hi!<br/>I am <span>Trishon Baidaya</span><br/><span class="auto-input"></span><br /></h1>
+             <p>From Bangladesh</p> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------------------------- Header part End ---------------------------------------->
+
+    <!----------------------------------------------About part Start---------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" alt="#" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi. Thanks for checking out my website and design work. I’m a web
+              developer. I am currently pursuing my B.tech degree in Computer
+              Sceince & Engineering from Kurukshetra University. I spend my
+              whole day, practically every day, experimenting with HTML, CSS,
+              JavaScript, MySQL; Programming with Java and C++; and also do PSD
+              to HTML conversion for Front-End Web Design. I build websites that
+              delight and inform. I do it well. I'm also familier with different
+              IDE like, VS Code, Eclipse, NetBeans, NotePad++, IntelliJ, etc.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                <b>Skills</b>
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                <b>Experience</b>
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                <b>Education</b>
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span><b>Web Developmemt</b></span
+                  ><br />Web App Interface Design and Developmemt using - HTML5,
+                  CSS3, JavaScript, MySQL, Java, Bootstrap, etc.
+                </li>
+                <li>
+                  <span><b>UI/UX</b></span
+                  ><br />Desiging Webpage/ WebApp Interface using - Photoshop
+                  CC, Adobe Illustrator, Figma.
+                </li>
+                <li>
+                  <span><b>Video & Photo Editing</b></span
+                  ><br />Editing videos using Adobe- Premiere Pro, VSDC,
+                  Illustrator, Photoshop CC, Animator, etc.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span><b>2019 - Current</b></span
+                  ><br />I am currently pursuing my
+                  <b>B.tech degree in Computer Sceince & Engineering</b> from
+                  Kurukshetra University
+                </li>
+                <li>
+                  <span><b>2021 - 2022</b></span
+                  ><br /><b>Trainee IT Engineer</b> at ThinkNEXT Pvt. Ltd.
+                </li>
+                <li>
+                  <span><b>2021 - 2022</b></span
+                  ><br /><b>Junior IT Engineer</b> at EVERGOINGBEST
+                  Architectural Pvt. Ltd.
+                </li>
+                <li>
+                  <span><b>2020 - 2021</b></span
+                  ><br /><b>Junior IT Engineer</b> at M.A. Enterprise
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span><b>2022 - 2022</b></span
+                  ><br />Web App Development training from ThinkNEXT Pvt. Ltd.
+                </li>
+                <li>
+                  <span>2021 - 2021</span><br />Web Developmemt training from
+                  UY-Lab, Bangladesh
+                </li>
+                <li>
+                  <span>2019 - 2023</span><br />B.tech from Kurukshetra
+                  university
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------ Services part start------------------------------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, ipsum commodi? Adipisci molestias, dolor sit
+              deserunt, inventore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, ipsum commodi? Adipisci molestias, dolor sit
+              deserunt, inventore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-photo-video"></i>
+            <h2>Video & Photo Editing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, ipsum commodi? Adipisci molestias, dolor sit
+              deserunt, inventore
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------------------------ Services part End------------------------------------------->
+
+    <!------------------------------------------------ Portfolio part start---------------------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-5.png" alt="" />
+            <div class="layer">
+              <h3>Hospital Management Web App</h3>
+              <p><b>Front-End:</b></p> 
+              <p>HTML5</p> 
+              <p>CSS3 </p> 
+              <p>JavaScript</p>
+              <p>Bootstrap-5.0</p> 
+              
+              <p><b>Back-End:</b></p>
+              <p>Java</p>
+              <p>MySQL</p>
+              <p>Java Server Page (jsp)</p>
+              
+              
+              <a href="images/work-5.png" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-expand"></i> 
+              </a>
+              <a href="https://github.com/TrishonBaidaya7399" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-4.png" alt="" />
+            <div class="layer">
+              <h3>Travelling Website</h3>
+              <p><b>Languages Used:</b></p> 
+              <p>HTML5</p> 
+              <p>CSS3 </p> 
+              <p>JavaScript</p>
+              <p><b>FrameWork Used:</b></p> 
+              <p>Bootstrap-5.0</p> 
+              <a href="images/work-4.png" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-expand"></i> 
+              </a>
+              <a href="https://trishonbaidaya7399.github.io/ExploreIndia/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Web Designer Team Website</h3>
+              <p><b>Languages Used:</b></p> 
+              <p>HTML5</p> 
+              <p>CSS3 </p> 
+              <p>JavaScript</p>
+              <p><b>FrameWork Used:</b></p> 
+              <p>Bootstrap-5.0</p> 
+              <a href="images/work-2.png" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-expand"></i> 
+              </a>
+              <a href="https://trishonbaidaya7399.github.io/Beatles/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.jpg" alt="" />
+            <div class="layer">
+              <h3>Restaurant Website</h3>
+              <p><b>Languages Used:</b></p> 
+              <p>HTML5</p> 
+              <p>CSS3 </p> 
+              <p>JavaScript</p>
+              <p><b>FrameWork Used:</b></p> 
+              <p>Bootstrap-5.0</p> 
+              <a href="images/work-3.jpg" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-expand"></i> 
+              </a>
+              <a href="https://github.com/TrishonBaidaya7399" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Web Designer Team Website</h3>
+              <p><b>Languages Used:</b></p> 
+              <p>HTML5</p> 
+              <p>CSS3 </p> 
+              <p>JavaScript</p>
+              <p><b>FrameWork Used:</b></p> 
+              <p>Bootstrap-5.0</p> 
+              <a href="images/work-1.png" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-expand"></i> 
+              </a>
+              <a href="https://trishonbaidaya7399.github.io/Strict/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="./portfolio page/index.html" class="btn" target="_blank" rel="noopener noreferrer">See More</a>
+      </div>
+    </div>
+
+    <!------------------------------------------------ Portfolio part end---------------------------------------->
+    <!--------------------------------------------Skills & chart markup start--------------------------------- -->
+<div class="mh-skills" id="mh-skills">
+    <div class="sub-title">My Skills</div>
+    <div class="row">
+        
+      <div class="skills-left" >
+        <div class="tech">Technical Skills</div> 
+        <div class="skills-box">
+            <h4>HTML5</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar html"></div>
+                <span>86%</span>
+            </div>
+        </div>
+        <div class="skills-box">
+          <h4>CSS3</h4>
+          <div class="skills-ilt">
+              <div class="skills-bar css"></div>
+              <span>70%</span>
+          </div>
+      </div>
+      <div class="skills-box">
+          <h4>JavaScript</h4>
+          <div class="skills-ilt">
+              <div class="skills-bar javascript"></div>
+              <span>38%</span>
+          </div>
+      </div>
+      <div class="skills-box">
+          <h4>MySQL</h4>
+          <div class="skills-ilt">
+              <div class="skills-bar mysql"></div>
+              <span>17%</span>
+          </div>
+      </div>
+      <div class="skills-box">
+          <h4>Java</h4>
+          <div class="skills-ilt">
+              <div class="skills-bar java"></div>
+              <span>30%</span>
+          </div>
+      </div>
+      <div class="skills-box">
+        <h4>Photos/Videos Editing</h4>
+        <div class="skills-ilt">
+            <div class="skills-bar photos"></div>
+            <span>50%</span>
+        </div>
+    </div>
+    </div>
+        
+<div class="part-2-circle" >
+  <div class="prof">Professional Skills</div> 
+<div class="container">
+ 
+  <div class="card">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+              <div class="number">
+              <h2>75<span>%</span></h2>
+              </div>
+      </div>
+      <h2 class="text">Communication</h2>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+              <div class="number">
+              <h2>65<span>%</span></h2>
+              </div>
+      </div>
+      <h2 class="text">Team Work</h2>
+    </div>
+  </div>
+  
+
+  <div class="card">
+    <div class="box">
+      <div class="percent">
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+              <div class="number">
+              <h2>90<span>%</span></h2>
+              </div>
+      </div>
+      <h2 class="text">Creativity</h2>
+    </div>
+  </div>
+
+</div>
+</div>
+
+    </div>
+
+</div>  
+ 
+
+    <!--------------------------------------------Skills & chart markup end--------------------------------- -->
+
+    <!-------------------------------------------------Contact part Start --------------------------------------->
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+         
+          <div class="contact-left">
+            <p>
+              <i class="fa-solid fa-arrow-pointer"></i>Click below icons to contact
+            </p>
+            <p>
+              <a href = "mailto: shukantobaidya2018@gmail.com"><i class="fa-solid fa-envelope"></i> shukantobaidya2018@gamil.com</a>
+            </p>
+            <p><a href="tel:+8801636132554"><i class="fa-solid fa-phone-volume"></i>+8801636132554</a></p>
+            <p><a href="tel:+918583905379"><i class="fa-solid fa-phone-volume"></i>+8801636132554</a></p>
+            <p><a href="https://goo.gl/maps/JxZKzB1B1jXi6xWU8" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i>Plot-247, Block-I, Kaiballyadham R/A, Akbershah, Chattogram, Bangladesh</a></p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.3600865425453!2d91.78281392921228!3d22.374751239218604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56422f8bdbe6c9e4!2zMjLCsDIyJzI5LjEiTiA5McKwNDcnMDAuMSJF!5e0!3m2!1sen!2sin!4v1662485135294!5m2!1sen!2sin" class="map" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <div class="social-icons">
+              <a href="https://mobile.facebook.com/Trishon.Baidaya.Shontu" target="_blank" rel="noopener noreferrer" name="facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/trishonbaidaya/" target="_blank" rel="noopener noreferrer" name="instagram">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/trishon-baidaya-shontu-tbs-8b20561b4/" target="_blank" rel="noopener noreferrer" name="linkdin">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://twitter.com/BaidayaShontu" target="_blank" rel="noopener noreferrer" name="twitter">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+              <a href="https://github.com/TrishonBaidaya7399" target="_blank" rel="noopener noreferrer" name="GitHub">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCuwiAzRSiUZMaWLpEeA_RBQ" target="_blank" rel="noopener noreferrer" name="GitHub">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+            <a href="images/Trishon resume.pdf" target="_blank" rel="noopener noreferrer" download="" class="btn btn2"
+              >Download CV</a>
+              
+          </div>
+          <div class="contact-right">
+            <form action="" name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                cols="60"
+                required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                cols="60"
+                id=""
+                required />
+              <input
+                type="text"
+                name="Contact-Number"
+                id=""
+                maxlength="11"
+                placeholder="Enter Your WhatsApp number" />
+              <input
+                type="text"
+                name="Birth-Date"
+                placeholder="Enter Your Birth Date"
+                onfocus="(this.type='date')"
+                onblur="(this.type='text')"
+                required />
+              <textarea
+                name="Message"
+                id=""
+                cols="60"
+                rows="10"
+                placeholder="Please Write Your Message!"></textarea>
+              <input type="submit" class="submit-btn"><p class="once">Click once to submit</p></input>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2022. All rights reserved by
+          <i class="fa-solid fa-heart"></i><span> Trishon Baidaya</span>
+        </p>
+      </div>
+    </div>
+    <!-------------------------------------------------Contact part End ----------------------------------------->
+    <!-- Circle js file -->
+    <!-- <script src="../portfolio/js/circle-progress.js"></script> -->
+    <!-- /* JavaScript */     -->
+    <script type="text/javascript" src="/test/wp-content/themes/child/script/jquery.jcarousel.min.js"></script>
+    <!-- Particle Js files -->
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      // Define function opentab
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <!-- sidemenu -->
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <!-- Auto typed CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-input",{
+        strings: ["a Web-Developer","an  UI/UX Designer", "a Freelancer", "an YouTuber","a Photo & Video Editor", "& an Artist also"],
+        typeSpeed:80,
+        backSpeed:80,
+        loop: true
+      })
+    </script>
+    <!-- Google Sheet -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxRARviZcklQ6KyhuI5_PCk1Kc2jHMI1hxqeNSOw1JF1QdNsvU307PU8gO1yAJ6vRCOeA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg")
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML="Your message sent successfully!"
+            setTimeout(function(){
+            msg.innerHTML=""
+
+            },5000)
+            form.reset()
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    
+  </body>
+</html>
