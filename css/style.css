@@ -136,7 +136,7 @@ nav ul li a:hover::after {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
-  padding-bottom: 40px; /*------------------change 4 80px----------------------- */
+  padding-bottom: 80px; /*------------------change 4 80px----------------------- */
 }
 
 .tab-titles {
@@ -335,6 +335,10 @@ nav ul li a:hover::after {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap; 
+}
+/* ------------------------------------change 5---------------------------------------- */
+.mh-skills .sub-title{
+padding-bottom:-40px;
 }
 .skills-left {
   width: 40%;
