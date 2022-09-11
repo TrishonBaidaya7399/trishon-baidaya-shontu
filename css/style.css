@@ -334,7 +334,7 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   width: 100%;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; ------------------------------change 2-----------------------*/
 }
 .skills-left {
   width: 40%;
@@ -757,6 +757,11 @@ nav .fas {
   .skills-left {
     width: 60%;
   }
+/*   ---------------------------------------change 2------------------------------------- */
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .contact-left,
   .contact-right {
     padding: 0;
@@ -782,6 +787,11 @@ nav .fas {
     align-items: center;
     justify-content: space-around;
     padding: 10px 45%;
+  }
+  /*   ---------------------------------------change 2------------------------------------- */
+  .row{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
