@@ -136,7 +136,7 @@ nav ul li a:hover::after {
   font-size: 60px;
   font-weight: 600;
   color: #fff;
-  padding-bottom: 80px;
+  padding-bottom: 40px; /*------------------change 4 80px----------------------- */
 }
 
 .tab-titles {
