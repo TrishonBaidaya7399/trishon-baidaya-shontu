@@ -234,7 +234,7 @@ nav ul li a:hover::after {
   padding: 50px 0;
 }
 .sub-title {
-  padding-top: 40px;
+  padding-top: 0px;    /*----------------------change 3-------------------*/
   text-align: center;
 }
 .work-list {
