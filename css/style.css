@@ -334,7 +334,7 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   width: 100%;
-/*   flex-wrap: wrap; ------------------------------change 2-----------------------*/
+  flex-wrap: wrap; 
 }
 .skills-left {
   width: 40%;
