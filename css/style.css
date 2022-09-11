@@ -420,8 +420,8 @@ nav ul li a:hover::after {
 }
 
 .part-2-circle {
-  width: 700px;
-  height: 400px;
+ /* width: 700px; */    /* ---------------------change-------------------------------- */
+  /* height: 400px; */      /* ---------------------change-------------------------------- */
   /* margin-top: 5%; */
   /* display: flex;
   align-items: center;
@@ -861,6 +861,12 @@ nav .fas {
   }
   .part-2-circle .container {
     padding: 10px 45%;
+    display: flex;    /* ---------------------change-------------------------------- */
+    flex-wrap: wrap;     /* ---------------------change-------------------------------- */
+  }
+   .part-2-circle .prof {
+    /* ---------------------change-------------------------------- */
+    margin-top: 60px;
   }
   .copyright {
     font-size: 14px;
