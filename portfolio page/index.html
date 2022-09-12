@@ -870,12 +870,12 @@
     <!-- .cd-hero -->
 
     <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
-<!--       --------------------------------------------change 01-(Close brower loader)---------------------------------------------------------------- -->
-<!--     <div id="loader-wrapper">
+
+    <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-    </div> -->
+    </div>
 
     <!-- load JS files -->
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -987,16 +987,16 @@
             ".cd-hero-slider li.selected .js-tm-page-content"
           ).data("page-no");
 
-          // wait 3 seconds
+          // wait 0 seconds
           setTimeout(function () {
             adjustHeightOfPage(currentPageNo);
-          }, 1000);
+          }, 0);
         });
 
         // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
-        <!--       --------------------------------------------change 01-(Close brower loader)---------------------------------------------------------------- -->
-//         $("body").addClass("loaded");
-//       });
+      
+        $("body").addClass("loaded");
+      });
 
       /* Google map
             ------------------------------------------------*/
