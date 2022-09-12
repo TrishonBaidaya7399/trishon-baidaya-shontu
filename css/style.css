@@ -209,10 +209,10 @@ nav ul li a:hover::after {
   box-shadow: 5px 10px 10px #5306ed;
 }
 .services-list div:hover {
-  box-shadow: 10px 10px 10px #c86584a4;
+  box-shadow: 10px 10px 10px #9b7dd5;
   transition: 0.4s;
   transform: translateY(-10px);
-  background: #ff0051a4;
+  background: #4305c0;
 }
 .services-list div i {
   font-size: 50px;
